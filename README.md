@@ -2,7 +2,7 @@
 
 ### Requirements
 - Nodejs
-- Angular2 (~8.2.2, via npm install @angular/cli~8.2.2)
+- Angular2 (8.2.2, via `npm install @angular/cli~8.2.2`)
 
 ### To run:
 ```
