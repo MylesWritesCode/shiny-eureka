@@ -5,10 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { SharedModule } from '@app/shared/shared.module';
+import { TopFiveComponent } from './pages/top-five/top-five.component';
 
 
 @NgModule({
-  declarations: [ AppComponent, ],
+  declarations: [ AppComponent, TopFiveComponent, ],
   imports: [
     BrowserModule,
     AppRoutingModule,

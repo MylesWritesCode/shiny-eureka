@@ -1,0 +1,54 @@
+/*
+  I'm just sticking all the CSs in here for now, but if we were to expand the
+  app, this would probably be moved to styles.scss.
+
+  .container and .content will probably be used for all the other pages.
+  Another solution would be to just set these values under router-outlet, but
+  I'll just do it like this for now, in case there's other layout
+  options I'd want to implement.
+*/
+.container {
+  display: flex;
+  width: 100%;
+  min-height: calc(100% - 120px - 2rem);
+  justify-content: center;
+  // background-color: #9E9E9E;
+}
+
+.content {
+  display: flex;
+  margin: 0rem 2rem;
+  padding: 2rem 0;
+  width: 60%;
+  max-width: 1200px;
+  background-color: white;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.content h2 {
+  display: flex;
+  height: fit-content;
+  margin-bottom: 0;
+}
+
+.entry {
+  display: flex;
+  margin: 1rem 0;
+}
+
+.half {
+  display: flex;
+  padding: 0.5rem 1rem;
+  flex: 1 0 50%;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.half img {
+  max-width: calc(100% - 0rem);
+}
+
+h3 {
+  margin: 0;
+}
