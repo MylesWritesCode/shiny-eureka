@@ -49,6 +49,13 @@
   max-width: calc(50% - 4rem);
 }
 
+@media screen and (max-width: 960px) {
+  .half {
+    flex: 1 0 100%;
+    max-width: unset;
+  }
+}
+
 .half img {
   max-width: calc(100% - 0rem);
 }
