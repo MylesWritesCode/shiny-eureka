@@ -35,6 +35,8 @@
 .entry {
   display: flex;
   margin: 1rem 0;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .half {
@@ -49,10 +51,29 @@
   max-width: calc(50% - 4rem);
 }
 
-@media screen and (max-width: 960px) {
+.half.image {
+
+}
+
+.half.text {
+
+}
+
+@media screen and (max-width: 760px) {
   .half {
     flex: 1 0 100%;
-    max-width: unset;
+    max-width: calc(100% - 3rem);
+    min-height: 300px;
+    padding: 1rem 0;
+    margin: 0;
+  }
+
+  .half.image {
+    order: 1;
+  }
+
+  .half.text {
+    order: 2;
   }
 }
 
