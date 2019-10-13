@@ -1,5 +1,5 @@
 /*
-  I'm just sticking all the CSs in here for now, but if we were to expand the
+  I'm just sticking all the CSS in here for now, but if we were to expand the
   app, this would probably be moved to styles.scss.
 
   .container and .content will probably be used for all the other pages.
@@ -19,7 +19,7 @@
   display: flex;
   margin: 0rem 2rem;
   padding: 2rem 0;
-  width: 60%;
+  // width: 60%;
   max-width: 1200px;
   background-color: white;
   flex-wrap: wrap;
@@ -40,11 +40,13 @@
 .half {
   display: flex;
   padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
   flex: 1 0 50%;
   flex-wrap: wrap;
   align-content: center;
   background-position: center;
   background-size: cover;
+  max-width: calc(50% - 4rem);
 }
 
 .half img {
